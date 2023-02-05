@@ -229,3 +229,69 @@ ul.show {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background: #40d3dc;
 }
+
+#sobreMi{
+    display: block;
+    margin: 0.625rem 1.625rem 1.625rem 1.625rem;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    background-color:  #f3ebf4;
+    border-radius:3rem;
+}
+
+#Descripcion{
+    padding: 1rem 3rem 0rem 3rem;
+    font-size: 0.9rem;
+    text-align: justify;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    float: right;
+    color: hwb(176 29% 33%);
+}
+#Descripcion2{
+    display: block;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0rem 0rem 2rem 0rem;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+#flexTry{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
+
+#fotoval{
+    display: block;
+    float: left;
+    margin: 1rem 1rem 1rem 2rem;
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 4rem;
+}
+#experiencia{
+    display: block;
+    margin:0.625rem 1.625rem 1.625rem 1.625rem;
+    background-color:  rgb(255, 244, 255);
+    border-radius: 3rem;
+}
+
+#Fecha{
+    text-align: center;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+#Trabajo{
+    text-align: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 0rem 0rem 0rem 2rem;
+    font-size:0.8rem;
+}
+#tel{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 5.8rem;
+    height: 4rem;
+}
+
+
+
+
