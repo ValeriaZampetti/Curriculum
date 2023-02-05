@@ -117,13 +117,6 @@ ul.show {
     }
 }
 
-
-
-
-
-
-
-
 .slider {
     width: 800px;
     height: 500px;
@@ -230,15 +223,15 @@ ul.show {
     background: #40d3dc;
 }
 
-#sobreMi{
+#sobreMi {
     display: block;
     margin: 0.625rem 1.625rem 1.625rem 1.625rem;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    background-color:  #f3ebf4;
-    border-radius:3rem;
+    background-color: #f3ebf4;
+    border-radius: 3rem;
 }
 
-#Descripcion{
+#Descripcion {
     padding: 1rem 3rem 0rem 3rem;
     font-size: 0.9rem;
     text-align: justify;
@@ -246,7 +239,7 @@ ul.show {
     float: right;
     color: hwb(176 29% 33%);
 }
-#Descripcion2{
+#Descripcion2 {
     display: block;
     margin: 1rem 1rem 1rem 1rem;
     padding: 0rem 0rem 2rem 0rem;
@@ -254,13 +247,13 @@ ul.show {
     text-align: justify;
 }
 
-#flexTry{
+#flexTry {
     display: flex;
     align-content: center;
     flex-direction: row;
 }
 
-#fotoval{
+#fotoval {
     display: block;
     float: left;
     margin: 1rem 1rem 1rem 2rem;
@@ -268,83 +261,81 @@ ul.show {
     height: 6.25rem;
     border-radius: 4rem;
 }
-#experiencia{
+#experiencia {
     display: block;
-    margin:0.625rem 1.625rem 1.625rem 1.625rem;
-    background-color:  rgb(255, 244, 255);
+    margin: 0.625rem 1.625rem 1.625rem 1.625rem;
+    background-color: rgb(255, 244, 255);
     border-radius: 3rem;
 }
 
-#Fecha{
+#Fecha {
     text-align: center;
-    padding:0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     font-size: 0.8rem;
 }
-#Trabajo{
+#Trabajo {
     text-align: center;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border: 0rem 0rem 0rem 2rem;
-    font-size:0.8rem;
+    font-size: 0.8rem;
 }
-#tel{
+#tel {
     padding: 0.5rem 1rem 0.5rem 1rem;
     width: 5.8rem;
     height: 4rem;
 }
 
-
-.skills{
+.skills {
     background-color: #4786a8;
     color: #fff;
     padding: 50px 20px;
 }
-.skills .contenido-seccion{
+.skills .contenido-seccion {
     max-width: 1100px;
     margin: auto;
 }
-.skills h2{
+.skills h2 {
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: "Righteous";
     text-align: center;
     padding: 20px 0;
-
 }
-.skills .fila{
+.skills .fila {
     display: flex;
 }
-.skills .fila .col{
+.skills .fila .col {
     width: 50%;
     padding: 0 20px;
 }
-.skills .fila .col h3{
+.skills .fila .col h3 {
     font-size: 28px;
-    font-family: 'Righteous';
+    font-family: "Righteous";
     margin-bottom: 25px;
 }
-.skills .skill > span{
+.skills .skill > span {
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
 }
-.skills .skill .barra-skill{
+.skills .skill .barra-skill {
     height: 8px;
     width: 80%;
     background-color: #131517;
     position: relative;
     margin-bottom: 30px;
 }
-.skills .skill .progreso{
-    background-color: #1CB698;
+.skills .skill .progreso {
+    background-color: #1cb698;
     position: absolute;
     top: 0;
     left: 0;
     height: 8px;
 }
-.skills .skill .barra-skill span{
+.skills .skill .barra-skill span {
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #1cb698;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -353,157 +344,196 @@ ul.show {
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .javascript {
     width: 0%;
     animation: 2s javascript forwards;
 }
 @keyframes javascript {
-    0%{width: 0%;}
-    100%{width: 75%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
 }
 
-.skills .skill .htmlcss{
+.skills .skill .htmlcss {
     width: 0%;
     animation: 2s htmlcss forwards;
 }
 @keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 89%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 89%;
+    }
 }
 
-.skills .skill .photoshop{
+.skills .skill .photoshop {
     width: 0%;
     animation: 2s photoshop forwards;
 }
 @keyframes photoshop {
-    0%{width: 0%;}
-    100%{width: 95%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 95%;
+    }
 }
 
-.skills .skill .wordpress{
+.skills .skill .wordpress {
     width: 0%;
     animation: 2s wordpress forwards;
 }
 @keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 81%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 81%;
+    }
 }
 
-.skills .skill .drupal{
+.skills .skill .drupal {
     width: 0%;
     animation: 2s drupal forwards;
 }
 @keyframes drupal {
-    0%{width: 0%;}
-    100%{width: 55%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 55%;
+    }
 }
 
-.skills .skill .comunicacion{
+.skills .skill .comunicacion {
     width: 0%;
     animation: 2s comunicacion forwards;
 }
 @keyframes comunicacion {
-    0%{width: 0%;}
-    100%{width: 80%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
 }
 
-.skills .skill .trabajo{
+.skills .skill .trabajo {
     width: 0%;
     animation: 2s trabajo forwards;
 }
 @keyframes trabajo {
-    0%{width: 0%;}
-    100%{width: 70%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
 }
 
-.skills .skill .creatividad{
+.skills .skill .creatividad {
     width: 0%;
     animation: 2s creatividad forwards;
 }
 @keyframes creatividad {
-    0%{width: 0%;}
-    100%{width: 99%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 99%;
+    }
 }
 
-.skills .skill .dedicacion{
+.skills .skill .dedicacion {
     width: 0%;
     animation: 2s dedicacion forwards;
 }
 @keyframes dedicacion {
-    0%{width: 0%;}
-    100%{width: 65%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
 }
 
-.skills .skill .proyect{
+.skills .skill .proyect {
     width: 0%;
     animation: 2s proyect forwards;
 }
 @keyframes proyect {
-    0%{width: 0%;}
-    100%{width: 94%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 94%;
+    }
 }
 
-.curriculum{
+.curriculum {
     background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
 }
-.curriculum .contenido-seccion{
+.curriculum .contenido-seccion {
     max-width: 1100px;
     margin: auto;
 }
-.curriculum h2{
+.curriculum h2 {
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: "Righteous";
     text-align: center;
     padding: 20px 0;
-
 }
-.curriculum .fila{
+.curriculum .fila {
     display: flex;
     justify-content: space-between;
 }
-.curriculum .fila .col{
+.curriculum .fila .col {
     width: 49%;
     padding: 0 20px;
 }
-.curriculum .fila .col h3{
+.curriculum .fila .col h3 {
     font-size: 28px;
-    font-family: 'Righteous';
+    font-family: "Righteous";
     margin-bottom: 25px;
 }
-.curriculum .fila .izquierda{
-    border-right: 2px solid #252A2E;
+.curriculum .fila .izquierda {
+    border-right: 2px solid hsl(208, 53%, 85%);
 }
-.curriculum .fila .derecha{
-    border-left: 2px solid #252A2E;
+.curriculum .fila .derecha {
+    border-left: 2px solid hsl(208, 53%, 85%);
 }
-.curriculum .fila .item{
+.curriculum .fila .item {
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252A2E;
+    background-color: #252a2e;
     position: relative;
 }
-.curriculum .fila .item h4{
+.curriculum .fila .item h4 {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.curriculum .fila .item .casa{
-    color: #1CB698;
+.curriculum .fila .item .casa {
+    color: #1cb698;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
-.curriculum .fila .item .fecha{
+.curriculum .fila .item .fecha {
     display: block;
-    color: #1CB698;
+    color: #1cb698;
     margin-bottom: 10px;
 }
-.curriculum .fila .item p{
+.curriculum .fila .item p {
     line-height: 24px;
 }
 
-.curriculum .fila .item img{
+.curriculum .fila .item img {
     width: 100%;
     height: auto;
     margin-bottom: 1rem;
@@ -511,134 +541,89 @@ ul.show {
     object-fit: cover;
 }
 
-.curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+.curriculum .fila .izq {
+    border-right: 2px solid #1cb698;
     margin-right: 20px;
 }
-.curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+.curriculum .fila .der {
+    border-left: 2px solid #1cb698;
     margin-left: 20px;
 }
-.curriculum .fila .item .conectori{
+.curriculum .fila .item .conectori {
     height: 2px;
-    background-color: #1CB698;
+    background-color: #1cb698;
     width: 47px;
     position: absolute;
     top: 50%;
     right: -47px;
     z-index: 5;
 }
-.curriculum .fila .item .conectori .circuloi{
+.curriculum .fila .item .conectori .circuloi {
     display: block;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #1cb698;
     float: right;
     position: relative;
     bottom: 4px;
 }
-.curriculum .fila .item .conectord{
+.curriculum .fila .item .conectord {
     height: 2px;
-    background-color: #1CB698;
+    background-color: #1cb698;
     width: 47px;
     position: absolute;
     top: 50%;
     left: -47px;
     z-index: 5;
 }
-.curriculum .fila .item .conectord .circulod{
+.curriculum .fila .item .conectord .circulod {
     display: block;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #1cb698;
     float: left;
     position: relative;
     bottom: 4px;
 }
 
-.contacto{
-    background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
-    color: #fff;
-    padding: 50px 0;
-}
-.contacto .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
-.contacto h2{
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
-}
-.contacto .fila{
-    display: flex;
-}
-.contacto .col{
-    width: 50%;
-    padding: 10px;
-    position: relative;
-}
-.contacto .col input, .contacto .col textarea{
-    display: block;
-    width: 100%;
-    padding: 18px;
-    border: none;
-    margin-bottom: 20px;
-    background-color: #252A2E;
-    color: #fff;
-    font-size: 18px;
-}
-.contacto button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-.contacto button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #1CB698;
-    z-index: -1;
-    transition: 1s;
-}
-.contacto button:hover .overlay{
-    width: 100%;
-}
-.contacto .col img{
-    width: 100%;
-}
-.contacto .col .info{
-    position: absolute;
-    top: 40%;
-    background-color: #252A2E;
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
     padding: 20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-.contacto .col .info ul{
-    list-style: none;
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
-.contacto .col .info ul li{
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
     margin-bottom: 20px;
-}
-.contacto .col .info ul li i{
-    color: #1CB698;
-    display: inline-block;
-    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
