@@ -20,10 +20,12 @@
         <nav class="menu">
             <label class="logo">Valeria</label>
             <ul class="menu_items">
-                <li class="active"><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mi</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">Habilidades</a></li>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobreMi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
             </ul>
             <span class="btn_menu">
                 <i class="fa fa-bars"></i>
@@ -80,7 +82,7 @@
         <div id="PersonalInfo">
             <div id ="flexTry">
                 <img src="./assets/val.JPG" alt="mi imagen" id="fotoval">
-                <h3 id="Descripcion">Mi nombre es Valeria Zampetti y soy estudiante de Ingenieria de sistemas</h3>
+                <h1 id="Descripcion"> Mi nombre es Valeria Zampetti y soy estudiante de Ingenieria de sistemas</h1>
             </div>
             <h4>Perfil e intereses</h2>
             <h3 id="Descripcion2">
@@ -271,6 +273,9 @@
                             </div>
                         </div>
                     </section>
+                    <h2> Contactame!!
+                    </h2>
+                    <section id="contacto" class="contacto"></section>
                     <form action="/enviar-mensaje" method="POST">
                         <label for="nombre">Nombre:</label><br />
                         <input type="text" id="nombre" name="nombre" /><br />
